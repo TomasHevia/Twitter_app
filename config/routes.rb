@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
   devise_for :users
-  root "static_pages#home"
+  root "tweets#index"
   resources :tweets, except: [:update,:edit]
 end
