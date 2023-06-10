@@ -1,1 +1,2 @@
-<%= render partial: 'tweet', locals: {tweet: @tweet} %>
+<%= render partial: 'tweet', locals: {tweet: @tweet} %>        
+<%= button_to 'Delete', @tweet, method: :delete, class: "btn btn-danger" %>
