@@ -1,0 +1,14 @@
+
+
+<div class="card">
+  <div class="card-header">
+    <%=  tweet.user.full_name %>
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-1">
+      <%= tweet.body %>
+      <br>
+      <footer class="blockquote-footer"><%= tweet.creation_date %></footer>
+    </blockquote>
+  </div>
+</div>
